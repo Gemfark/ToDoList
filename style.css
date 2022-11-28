@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: rgb(12, 39, 43);
+
+  }
+  h1 {
+    text-align: center;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  header {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin: 0 auto;
+    padding: 30px;
+    border-bottom: 10px solid gray;
+    background: rgb(187,186,0);
+    background: linear-gradient(153deg, rgba(187,186,0,1) 0%, rgba(194,157,2,1) 23%, rgba(0,212,255,1) 100%);
+  }
+
+  .formTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrapper__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .wrapper__info input{
+      width: 100%;
+      outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    padding: 10px;
+    height: 40px;
+    background: rgb(0,0,0, 0);
+
+  }
+  .wrapper__info select{
+    width: 100%
+  }
+  select{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    padding: 10px;
+    height: 40px;
+    background: rgb(0,0,0, 0);
+  }
+  .wrapper__info div{
+    margin: 0 10px;
+  }
+  label {
+    margin-right: 50px;
+    font-size: 25px;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    padding: 10px;
+    background: rgb(0,0,0, 0);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  select{
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  }
+button{
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+  .select_page {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  textarea {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: rgb(0,0,0, 0);
+    border: 0.1px solid;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    
+  }
+
+  .btn_save {
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  ol {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  li {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px black solid;
+    margin-bottom: 25px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .wrapper__modal {
+    box-shadow: 19px 16px 16px 15px rgba(34, 60, 80, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.663);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__modal {
+    padding: 20px;
+    border-bottom: 10px solid gray;
+    width: 70vh;
+    background: rgb(187,186,0);
+    background: linear-gradient(153deg, rgba(187,186,0,1) 0%, rgba(194,157,2,1) 23%, rgba(0,212,255,1) 100%);
+  }
+  textarea{
+    width: 100%;
+    
+  }
+  .none {
+    display: none;
+  }
+  main{
+    margin-top: 30px;
+  }
+
+  
+  .wrapper__input {
+    min-height: 150px;
+  }
+  button{
+    background: rgb(0,0,0, 0);
+    border-radius: 10px;
+border-width: 0.01px;;
+  }
+  .wrapper__modal{
+    backdrop-filter: blur(5px);
+  }
+  .wrapper__input div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper__input div input {
+    width: 40%;
+  }
+  .container__modal button{
+    width: 20%;
+    height: 30px;
+  }
+  .select_modal {
+    margin-top: 20px;
+  }
+  .search{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .wrapper_search{
+    flex-basis: 60%;
+  }
+  .wrapper_search input{
+    width: 60%;
+    margin-right: 20px;
+  }
+   .wrapper_search button{
+    width: 60px;
+    height: 100%;
+  }
+  .wrapper_filter{
+    flex-basis: 40%;
+  }
+  .wrapper_filter select{
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+  }
+  li{
+    transition: 0.5s;
+    font-size: 12px;
+    font-size: 15px;
+  }
+  li button{
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .wrapper__input label{
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  }
+  .wrapper__input div{
+    padding: 30px;
+  }
+  @media(max-width:700px) {
+    li span{
+        display: none;
+    }    
+    }
+@media(max-width:580px){
+    .search{
+        flex-direction: column;
+        height: 300px;
+    }
+    .search button{
+        padding: 10px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .search select{
+        border: none;
+    }
+}
+@media(max-width:500px){
+    .wrapper__info{
+        flex-direction: column;
+        text-align: center;
+    }
+}
